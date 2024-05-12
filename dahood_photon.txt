@@ -126,9 +126,9 @@ getgenv().Photon = {
         },
         ["Fov"] = {
             ["Visible"] = (true), -- // If The Circle Is Showing Or Not
-            ["Method"] = ("Screen"), -- // What Type Of Position The Fov Is Gonna Be (Mouse, Screen)
+            ["Method"] = ("Mouse"), -- // What Type Of Position The Fov Is Gonna Be (Mouse, Screen)
             ["Filled"] = (false), -- // If The Circle Is Filled
-            ["Transparency"] = (0.2), -- // The Circle Transparency
+            ["Transparency"] = (0.1), -- // The Circle Transparency
             ["Color"] = (Color3.fromRGB(200, 200, 200)), -- // Circle Color
             ["Offset"] = (Vector2.new(0, 0)), -- // Circle Position + The Offset
             ["StickyFov"] = (false), -- // Puts The Circle On Target Position
