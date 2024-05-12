@@ -4,7 +4,7 @@ getgenv().Photon = {
         ["Key"] = ("Key_Here"), -- // Put Your Key Here!
         ["Gui"] = (false), -- // Shows You An Gui That You Can Change Stuff Directly
         ["GuiV2"] = (false), -- // Shows You An Gui V2 That You Can Change Stuff Directly
-        ["Intro"] = (false), -- // Shows You An Intro
+        ["Intro"] = (true), -- // Shows You An Intro
         ["Internal"] = (false), -- // Shows An Console That You Can Change ChatCommands On
         ["AutoGetUp"] = (true), -- // If You Are Laying Down Unable To Stand Up It Will AutoMatically Get You Up
         ["AntiError"] = (false), -- // Removes Errors In Console
@@ -126,7 +126,7 @@ getgenv().Photon = {
         },
         ["Fov"] = {
             ["Visible"] = (true), -- // If The Circle Is Showing Or Not
-            ["Method"] = ("Mouse"), -- // What Type Of Position The Fov Is Gonna Be (Mouse, Screen)
+            ["Method"] = ("Screen"), -- // What Type Of Position The Fov Is Gonna Be (Mouse, Screen)
             ["Filled"] = (false), -- // If The Circle Is Filled
             ["Transparency"] = (1), -- // The Circle Transparency
             ["Color"] = (Color3.fromRGB(200, 200, 200)), -- // Circle Color
