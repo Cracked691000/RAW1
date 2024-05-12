@@ -30,7 +30,7 @@ getgenv().silentaim = {
         ["SilentToggle"] = "nil", --//toggles silent aim to be on/off 
         ["Enabled"] = true, --//Enbles Silent Aim
         ["AimPart"] = "HumanoidRootPart", --"Head", "UpperTorso", "HumanoidRootPart", "LowerTorso", "LeftHand", "RightHand", "LeftLowerArm", "RightLowerArm", "LeftUpperArm", "RightUpperArm", "LeftFoot", "LeftLowerLeg",  "LeftUpperLeg", "RightLowerLeg", "RightFoot",  "RightUpperLeg"
-        ["Prediction"] = 0.143628, --//Velocity Prediction of opponent
+        ["Prediction"] = 0.193628, --//Velocity Prediction of opponent
         ["UseHitchance"] = false, --//Turns on Hitchance
         ["HitChance"] = 100, --//Value Of Hitchance but i recommend 100
         ["ClosestPart"] = false, --//Turns On ClosestPartToMouse
@@ -50,10 +50,10 @@ getgenv().silentaim = {
     },
 
     Camera = {
-        ["CameraToggle"] = "Q", --//Keybind to Make ur camera follows opponent
+        ["CameraToggle"] = "X", --//Keybind to Make ur camera follows opponent
         ["Enabled"] = true, --//enables camera lock 
         ["AimPart"] = "HumanoidRootPart", --//AimPart for Camera to be focused on
-        ["Prediction"] = 5.24, --// Prediction of Velocity on opponent 1-10
+        ["Prediction"] = 3.54, --// Prediction of Velocity on opponent 1-10
         ["SmoothnessValue"] = 0.004, --//Smoothness Value that makes ur camera smoothly goes on ur opponent
         ["Smoothness"] = true, --//Enables Smoothness that makes ur camera smooth
         ["CameraClosestPart"] = false, --//Makes Ur AimPart be the ClosestOneToCursor
