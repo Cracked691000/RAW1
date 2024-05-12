@@ -68,7 +68,7 @@ getgenv().Photon = {
         ["ClosestPointScale"] = (100), -- // How Far It Reaches Out (Basically Multi Point). In Percent
         ["UseWhitelistedParts"] = (false), -- // Makes So You Only Get Custom Parts
         ["WhitelistedPart"] = {"Head", "UpperTorso", "HumanoidRootPart", "LowerTorso", "LeftHand", "RightHand", "LeftLowerArm", "RightLowerArm", "LeftUpperArm", "RightUpperArm", "LeftFoot", "LeftLowerLeg",  "LeftUpperLeg", "RightLowerLeg", "RightFoot",  "RightUpperLeg"}, -- // Whitelists Certain Part For ClosestPart Function. Example {"HumanoidRootPart", "Head"}
-        ["AntiAimViewer"] = (true), -- // Bypasses The Mouse Position For The Server
+        ["AntiAimViewer"] = (false), -- // Bypasses The Mouse Position For The Server
         ["HitChance"] = (100), -- // The Chance You Will Hit The Target
         ["AirHitChance"] = (100), -- // The Chance You Will Hit The Target In The Air
         
@@ -128,7 +128,7 @@ getgenv().Photon = {
             ["Visible"] = (true), -- // If The Circle Is Showing Or Not
             ["Method"] = ("Mouse"), -- // What Type Of Position The Fov Is Gonna Be (Mouse, Screen)
             ["Filled"] = (false), -- // If The Circle Is Filled
-            ["Transparency"] = (0.1), -- // The Circle Transparency
+            ["Transparency"] = (0), -- // The Circle Transparency
             ["Color"] = (Color3.fromRGB(200, 200, 200)), -- // Circle Color
             ["Offset"] = (Vector2.new(0, 0)), -- // Circle Position + The Offset
             ["StickyFov"] = (false), -- // Puts The Circle On Target Position
