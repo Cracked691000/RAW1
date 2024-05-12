@@ -262,7 +262,7 @@ getgenv().Photon = {
         },
         ["Fov"] = {
             ["Visible"] = (false), -- // If The Circle Is Showing Or Not
-            ["Filled"] = (true), -- // If The Circle Is Filled
+            ["Filled"] = (false), -- // If The Circle Is Filled
             ["Transparency"] = (0.5), -- // Circles Transparency
             ["Color"] = (Color3.fromRGB(0, 0, 0)), -- // Circle Color
             ["Radius"] = (70) -- // How Big The Circle Is
