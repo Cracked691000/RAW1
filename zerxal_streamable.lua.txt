@@ -224,12 +224,12 @@ LPH_JIT_MAX(
 
             local Circle = Drawing.new("Circle")
             Circle.Color =  silentaim.FOV.Color1
-            Circle.Transparency = 1
+            Circle.Transparency = 0.4
             Circle.Thickness = 0.5
           
             local CameraCircle = Drawing.new("Circle")
             CameraCircle.Color = silentaim.FOV.Color1
-            CameraCircle.Thickness = 1
+            CameraCircle.Thickness = 0.4
     
 
         local ttarget
